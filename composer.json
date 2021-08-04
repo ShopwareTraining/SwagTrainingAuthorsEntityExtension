@@ -1,0 +1,17 @@
+{
+  "name": "swag-training/shopware6-authors-entity-extension",
+  "description": "Entity Extension for authors",
+  "type": "shopware-platform-plugin",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "SwagTraining\\AuthorsEntityExtension\\": "src/"
+    }
+  },
+  "extra": {
+    "shopware-plugin-class": "SwagTraining\\AuthorsEntityExtension\\SwagTrainingAuthorsEntityExtension",
+    "label": {
+      "en-GB": "Entity Extension for authors"
+    }
+  }
+}
